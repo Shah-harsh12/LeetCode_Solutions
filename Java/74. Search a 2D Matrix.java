@@ -6,8 +6,6 @@ class Solution {
         int left = 0;
         int right = m * n - 1;
 
-        int first= 0;
-        
         while(left <= right){
             int mid = left + (right - left)/2;
 
